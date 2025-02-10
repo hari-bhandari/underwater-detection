@@ -1,0 +1,32 @@
+\documentclass{UoYCSproject}
+
+\input{preamble/preamble}
+
+% Title and front matter
+\input{title/title}
+\input{title/dedication}
+\input{title/acknowledgements}
+
+\begin{document}
+\pagenumbering{roman}
+\maketitle
+
+% Summary
+\input{summary/summary}
+
+
+
+% Chapters
+\pagenumbering{arabic}
+\input{chapters/introduction}
+\input{chapters/conclusion}
+
+% Appendices
+\appendix
+\input{appendix/appendix1}
+\input{appendix/appendix2}
+
+% Bibliography
+\input{bibliography/bibliography}
+
+\end{document}
